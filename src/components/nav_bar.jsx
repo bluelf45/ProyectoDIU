@@ -12,15 +12,15 @@ export const NavBar = () => {
       </NavLink>
       <NavLink
         className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
-        to='/Pagos'
-      >
-        Pagos
-      </NavLink>
-      <NavLink
-        className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
         to='/Reservas'
       >
         Reservas
+      </NavLink>
+      <NavLink
+        className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
+        to='/Pagos'
+      >
+        Pagos
       </NavLink>
       <NavLink
         className={({ isActive }) => `nav-bar__link ${isActive ? 'nav-bar__link--active' : ''}`}
