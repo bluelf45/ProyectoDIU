@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bluelf45/Pagina"
+    "url": "https://github.com/bluelf45/ProyectoDIU"
   },
   "scripts": {
     "prod": "webpack --mode=production",
