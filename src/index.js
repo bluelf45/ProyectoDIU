@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDom from 'react-dom'
 
 import AppRouter from './components/app_router'
