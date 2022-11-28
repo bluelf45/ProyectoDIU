@@ -9,8 +9,9 @@ export const Pagos = () => {
   return (
     <div>
       <div className='page'>
-        <h1 className='page__title'>Pagar Gastos Comunes</h1>
+        <h1 className='page__title'>Frontend Sample App</h1>
         <NavBar />
+        <h2>Pagar Gastos Comunes</h2>
         <div className='Pagar'>
         <Form>
           <Form.Group className="mb-3" controlId="Banco">
@@ -48,7 +49,7 @@ export const Pagos = () => {
           </Form.Group>
         </Form>
         <div clas="container" className="Contenedor">
-            <a href="/Noticias">
+            <a href="/Finish">
               <Button variant="primary" style={{ marginRight: "auto" }} >Pagar</Button>
             </a>
           </div>
