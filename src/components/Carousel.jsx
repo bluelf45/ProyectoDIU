@@ -1,6 +1,7 @@
 import React from 'react'
-import Important  from "../assets/Important.jpg"
-import Important2  from "../assets/Important2.jpg"
+import edificio  from "../assets/edificio1.jpg"
+import edificio2  from "../assets/edificio2.jpg"
+import piscina  from "../assets/piscina.jpg"
 import { Carousel } from 'react-bootstrap'
 
 function HomeCarousel() {
@@ -10,20 +11,20 @@ function HomeCarousel() {
           <Carousel.Item>
             <img
             
-              src={Important}
+              src={edificio}
               alt="First slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              src={Important}
+              src={edificio2}
               alt="Second slide"
             />
     
           </Carousel.Item>
           <Carousel.Item>
             <img
-              src={Important2}
+              src={piscina}
               alt="Third slide"
             />
           </Carousel.Item>
