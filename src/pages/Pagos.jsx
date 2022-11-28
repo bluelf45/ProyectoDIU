@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Button } from 'react-bootstrap'
+import { Routes, Route, useNavigate} from "react-router-dom";
 import Form from 'react-bootstrap/Form'
 
 import NavBar from '../components/nav_bar'
@@ -47,7 +48,7 @@ export const Pagos = () => {
           </Form.Group>
         </Form>
         <div style={{ display: "flex" }} className="CustomButton">
-        <Button variant="primary" style={{ marginLeft: "auto" }}>Pagar</Button>{' '}
+        <Button variant="primary" style={{ marginLeft: "auto" }}>Pagar</Button>
         </div>
         </div>
       </div>
