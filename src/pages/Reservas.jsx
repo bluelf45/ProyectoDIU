@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from '@mui/material'
+import { Button } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form'
 
 import NavBar from '../components/nav_bar'
@@ -10,7 +10,7 @@ export const Reservas = () => {
         <div className='page'>
         <h1 className='page__title'>Frontend Sample App</h1>
         <NavBar />
-        <h2>Página de Reservas</h2></div>
+        <h2>Página de Reservas</h2>
         <div className='Reserve'>
         <Form>
           <Form.Group className="mb-3" controlId="EspacioComun">
@@ -42,6 +42,10 @@ export const Reservas = () => {
             </Form.Select>
           </Form.Group>
         </Form>
+        <div style={{ display: "flex" }} className="CustomButton">
+        <Button variant="primary" style={{ marginLeft: "auto" }}>Reservar</Button>{' '}
+        </div>
+        </div>
         </div>
     </div>
 
