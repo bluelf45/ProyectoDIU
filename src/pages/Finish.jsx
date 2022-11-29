@@ -48,8 +48,9 @@ export const TerminarPago = () => {
             </Form.Group>
           </Form>
           <div clas="container" className="Contenedor">
-              <a href="/Finish">
-                <Button variant="primary" style={{ marginRight: "auto" }} >Pagar</Button>
+              <a href="/Pagos">
+                <Button variant="primary" style={{ marginRight: "20px" }} >Cancelar</Button>
+                <Button variant="primary" style={{ marginRight: "auto" }} >Registrar</Button>
               </a>
             </div>
           </div>
@@ -59,4 +60,3 @@ export const TerminarPago = () => {
   }
   
   export default TerminarPago
-  
