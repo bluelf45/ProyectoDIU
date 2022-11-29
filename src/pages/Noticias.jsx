@@ -16,7 +16,7 @@ for (let number = 1; number <= 5; number++) {
 export const Noticias = () => {
   return (
     <div className='page'>
-      <h1 className='page__title'>Noticias</h1>
+      <h1 className='page__title'>Megabuilding H-10</h1>
       <NavBar />
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div class='col'>
@@ -40,13 +40,14 @@ export const Noticias = () => {
             <h4>Ingresos de visitantes no autorizados</h4>
             <h6>Informamos a nuestros estimados visitantes que a lo largo de los ultimos meses hemos tenido un gran flujo de visitantes, por ello, desde el dia 5 de octubre, se requerira avisar a porteria sobre cualquier visitante que desee ingresar al complejo de manera previa a su llegada.</h6>
           </div>
-          <Pagination>
+        </div>
+      </div>
+      <div class="Paginacion">
+      <Pagination>
             <Pagination.Prev />
               {items}
             <Pagination.Next />
           </Pagination>
-        </div>
-      
       </div>
     </div>
   )

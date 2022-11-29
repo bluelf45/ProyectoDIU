@@ -8,7 +8,7 @@ export const Reservas = () => {
   return (
     <div>
         <div className='page'>
-        <h1 className='page__title'>Frontend Sample App</h1>
+        <h1 className='page__title'>Megabuilding H-10</h1>
         <NavBar />
         <h2>Página de Reservas</h2>
         <div className='Reserve'>
