@@ -1,12 +1,17 @@
-import React, { useEffect } from 'react'
-import { Button } from 'react-bootstrap'
-import { Link } from'react-router-dom';
-import Form from 'react-bootstrap/Form'
-import { NavLink } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import { Button } from 'react-bootstrap';
+import Form from 'react-bootstrap/Form';
+import { NavLink } from 'react-router-dom';
+import Table from 'react-bootstrap/Table';
+import Modal from 'react-bootstrap/Modal';
 
 import NavBar from '../components/nav_bar'
 
 export const Pagos = () => {
+  //const [show, setShow] = useState(false);
+  //const handleClose = () => setShow(false);
+  //const handleShow = () => setShow(true);
+
   return (
     <div>
       <div className='page'>
@@ -15,7 +20,32 @@ export const Pagos = () => {
         <h3>Pagar Gastos Comunes</h3>
         <div class="split left">
           <div class="centered">
-            <h2>Programa aqui jaffar</h2>
+            <Table>
+            <thead>
+        <tr>
+          <th>Motivo</th>
+          <th>Costo</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Guardias</td>
+          <td>$19990</td>
+        </tr>
+        <tr>
+          <td>Basura</td>
+          <td>$5699</td>
+        </tr>
+        <tr>
+          <td>Electricidad edificio</td>
+          <td>$14990</td>
+        </tr>
+        <tr>
+          <td>Agua</td>
+          <td>$12990</td>
+        </tr>
+      </tbody>
+            </Table>
           </div>
         </div>
 
@@ -37,6 +67,11 @@ export const Pagos = () => {
               >Registrar tarjeta
               </NavLink>
             </h6>
+          </div>
+          <div style={{ display: "flex" }} className="CustomButton">
+          <Button variant="primary">
+            Pagar
+            </Button>
           </div>
           </div>
         </div> 

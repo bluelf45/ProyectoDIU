@@ -31,6 +31,7 @@
   margin-left: 60px;
   position: fixed;
   padding-top: 20px;
+  padding-right:15px;
 }
 .left {
   left: 0;
@@ -39,4 +40,11 @@
 /* Control the right side */
 .right {
   right: 0;
+}
+.CustomButton{
+  position:fixed;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  right: 0;
+  bottom: 0;
 }
